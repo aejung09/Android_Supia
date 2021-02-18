@@ -78,16 +78,20 @@ mail.jar
 FindPWActivity에서 사용할 Gmail 및 비밀번호 기입
 
 사용할 Gmail 내 보안 > 보안 수준이 낮은 앱의 액세스 허용 설정
+
 -----
+
 ## 4.Tomcat에 제품 사진을 넣기 위해 pictures 폴더를 만든다.
 
 #### 방법은 tomcat 라이브러리 폴더의 /webapps/ROOT/안에 pictures폴더를 생성하면 된다.
+
 ---
 ## 5.Tomcat lib 에 MYSQL 라이브러리를 넣는다
 #### 방법은 connector를 받아 tomcat 라이브러리 폴더의 /lib 에 넣어주면 된다.
 
 #### 참고) windowOS는 /webapps/ROOT/WEB-INF에 cos.jar를 넣어주면 된다. MYSQL Connector는 이전과 동일하게 /lib에 넣어주면 된다.
 #### Link: MYSQL Connector
+
 ---
 ## 6.test 폴더 안에 jsp MYSQL 데이터 베이스의 주소를 수정하도록한다.
 이를테면
@@ -101,6 +105,7 @@ FindPWActivity에서 사용할 Gmail 및 비밀번호 기입
     String pw_mysql = "암호";
 ```    
 한글로 적혀있는 부분은 각자 환경에 맞게 채우면 된다.
+
 ---
 ## 7.데이터 베이스와 Tomcat 서버를 연동하기 위해 안드로이드 내부의 IP를 수정한다.
 방법은 project 내부의 com.example.supia.ShareVar package를 보면 ShareVar.class가 있다
@@ -109,9 +114,12 @@ FindPWActivity에서 사용할 Gmail 및 비밀번호 기입
 
  public static String urlIp = "172.20.10.3"; 
 이부분에 Ip 주소를 본인의 Ip 주소로 변경한다.
+
 ---
 ## 8.SQL Table은 다음과 같다.
+
 user	product	calendar	cart	liked	orderlist	userDeliveryAddrList	qna	review	subscribeOrder
 사용자 정보 관련	제품 정보 관련	사용자 생리주기,배송날짜 관련	장바구니 관련	찜 목록 관련	일반주문 관련	구독주문 관련	제품 QnA 관련	제품 리뷰 관련	구매자 배송 리스트 관련
+
 ---
 ## 9.실행 영상.
