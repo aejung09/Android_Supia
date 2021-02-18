@@ -124,3 +124,8 @@ user	product	calendar	cart	liked	orderlist	userDeliveryAddrList	qna	review	subsc
 
 ---
 ## 9.실행 영상.
+
+
+[<img width="504" alt="스크린샷 2021-02-18 오후 6 13 18" src="https://user-images.githubusercontent.com/70096347/108334140-fd543a00-7214-11eb-838a-de2a35e3c525.png">](https://www.youtube.com/watch?v=unRgWQw08sE)
+
+이미지 클릭시 해당 
