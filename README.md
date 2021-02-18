@@ -83,14 +83,15 @@ FindPWActivity에서 사용할 Gmail 및 비밀번호 기입
 
 ## 4.Tomcat에 제품 사진을 넣기 위해 pictures 폴더를 만든다.
 
-#### 방법은 tomcat 라이브러리 폴더의 /webapps/ROOT/안에 pictures폴더를 생성하면 된다.
+ 방법은 tomcat 라이브러리 폴더의 /webapps/ROOT/안에 pictures폴더를 생성하면 된다.
 
 ---
 ## 5.Tomcat lib 에 MYSQL 라이브러리를 넣는다
-#### 방법은 connector를 받아 tomcat 라이브러리 폴더의 /lib 에 넣어주면 된다.
 
-#### 참고) windowOS는 /webapps/ROOT/WEB-INF에 cos.jar를 넣어주면 된다. MYSQL Connector는 이전과 동일하게 /lib에 넣어주면 된다.
-#### Link: MYSQL Connector
+방법은 connector를 받아 tomcat 라이브러리 폴더의 /lib 에 넣어주면 된다.
+
+ 참고) windowOS는 /webapps/ROOT/WEB-INF에 cos.jar를 넣어주면 된다. MYSQL Connector는 이전과 동일하게 /lib에 넣어주면 된다.
+Link: MYSQL Connector
 
 ---
 ## 6.test 폴더 안에 jsp MYSQL 데이터 베이스의 주소를 수정하도록한다.
