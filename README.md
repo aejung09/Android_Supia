@@ -67,7 +67,7 @@ Network_security_config.xml 안에 이 코드를 삽입한다.
 3.Tomcat에 연동할 jsp 파일을 폴더에 넣는다.
 방법은 tomcat 라이브러리 폴더의 /webapps/ROOT/안에 넣으면 된다.
 
-Link: JSP파일 Link
+Link: [JSP파일 Link](https://github.com/aejung09/Android_Supia/tree/main/SupiaJsp)
 
 4.Gmail 인증 설정.
 프로젝트 내부 libs 폴더에 아래 3개 jar 파일 추가
@@ -124,3 +124,8 @@ user	product	calendar	cart	liked	orderlist	userDeliveryAddrList	qna	review	subsc
 
 ---
 ## 9.실행 영상.
+
+
+[<img width="230" alt="스크린샷 2021-02-18 오후 6 13 18" src="https://user-images.githubusercontent.com/70096347/108334140-fd543a00-7214-11eb-838a-de2a35e3c525.png">](https://www.youtube.com/watch?v=unRgWQw08sE)
+
+이미지 클릭시 해당 
